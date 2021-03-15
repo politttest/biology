@@ -47,3 +47,29 @@ nav{
     text-align: center;
     margin-top: 90px;
 }
+
+#snackbar_DNK_AAA, #snackbar_DNK_AUA, #snackbar_DNK_ANA, #snackbar_DNK_AWA, #snackbar_DNK_AAU, #snackbar_DNK_AUU, #snackbar_DNK_ANU, #snackbar_DNK_AWU, #snackbar_DNK_AAN, #snackbar_DNK_AUN, #snackbar_DNK_ANN, #snackbar_DNK_AWN,#snackbar_DNK_AAW, #snackbar_DNK_AUW, #snackbar_DNK_ANW, #snackbar_DNK_AWW, #snackbar_DNK_UAA, #snackbar_DNK_UUA, #snackbar_DNK_UNA, #snackbar_DNK_UWA, #snackbar_DNK_UAU, #snackbar_DNK_UUU, #snackbar_DNK_UNU, #snackbar_DNK_UWU, #snackbar_DNK_UAN, #snackbar_DNK_UUN, #snackbar_DNK_UNN, #snackbar_DNK_UWN, #snackbar_DNK_UAW, #snackbar_DNK_UUW, #snackbar_DNK_UNW, #snackbar_DNK_UWW, #snackbar_DNK_NAA, #snackbar_DNK_NUA, #snackbar_DNK_NNA, #snackbar_DNK_NWA, #snackbar_DNK_NAU, #snackbar_DNK_NUU, #snackbar_DNK_NNU, #snackbar_DNK_NWU, #snackbar_DNK_NAN, #snackbar_DNK_NUN, #snackbar_DNK_NNN, #snackbar_DNK_NWN, #snackbar_DNK_NAW, #snackbar_DNK_NUW, #snackbar_DNK_NNW, #snackbar_DNK_NWW, #snackbar_DNK_WAA, #snackbar_DNK_WUA, #snackbar_DNK_WNA, #snackbar_DNK_WWA, #snackbar_DNK_WAU, #snackbar_DNK_WUU, #snackbar_DNK_WNU, #snackbar_DNK_WWU, #snackbar_DNK_WAN, #snackbar_DNK_WUN, #snackbar_DNK_WNN, #snackbar_DNK_WWN,#snackbar_DNK_WAW, #snackbar_DNK_WUW, #snackbar_DNK_WNW, #snackbar_DNK_WWW,
+
+#snackbar_RNK_EEE, #snackbar_RNK_EWE, #snackbar_RNK_EAE, #snackbar_RNK_EUE,#snackbar_RNK_EEW, #snackbar_RNK_EWW, #snackbar_RNK_EAW, #snackbar_RNK_EUW,#snackbar_RNK_EEA, #snackbar_RNK_EWA, #snackbar_RNK_EAA, #snackbar_RNK_EUA,#snackbar_RNK_EEU, #snackbar_RNK_EWU, #snackbar_RNK_EAU, #snackbar_RNK_EUU,#snackbar_RNK_WEE, #snackbar_RNK_WWE, #snackbar_RNK_WAE, #snackbar_RNK_WUE,#snackbar_RNK_WEW, #snackbar_RNK_WWW, #snackbar_RNK_WAW, #snackbar_RNK_WUW,#snackbar_RNK_WEA, #snackbar_RNK_WWA, #snackbar_RNK_WAA, #snackbar_RNK_WUA,#snackbar_RNK_WEU, #snackbar_RNK_WWU, #snackbar_RNK_WAU, #snackbar_RNK_WUU,#snackbar_RNK_AEE, #snackbar_RNK_AWE, #snackbar_RNK_AAE, #snackbar_RNK_AUE,#snackbar_RNK_AEW, #snackbar_RNK_AWW, #snackbar_RNK_AAW, #snackbar_RNK_AUW,#snackbar_RNK_AEA, #snackbar_RNK_AWA, #snackbar_RNK_AAA, #snackbar_RNK_AUA,#snackbar_RNK_AEU, #snackbar_RNK_AWU, #snackbar_RNK_AAU, #snackbar_RNK_AUU,#snackbar_RNK_UEE, #snackbar_RNK_UWE, #snackbar_RNK_UAE, #snackbar_RNK_UUE,#snackbar_RNK_UEW, #snackbar_RNK_UWW, #snackbar_RNK_UAW, #snackbar_RNK_UUW,#snackbar_RNK_UEA, #snackbar_RNK_UWA, #snackbar_RNK_UAA, #snackbar_RNK_UUA,#snackbar_RNK_UEU, #snackbar_RNK_UWU, #snackbar_RNK_UAU, #snackbar_RNK_UUU{
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    color: black;
+    width: 20%;
+    box-shadow: 0 2px 2px rgb(175, 175, 175);
+    border-radius: 10px;
+    line-height: 20px;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    left: 40%;
+    bottom: 50px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#snackbar_DNK_AAA.show, #snackbar_DNK_AUA.show, #snackbar_DNK_ANA.show, #snackbar_DNK_AWA.show, #snackbar_DNK_AAU.show, #snackbar_DNK_AUU.show, #snackbar_DNK_ANU.show, #snackbar_DNK_AWU.show, #snackbar_DNK_AAN.show, #snackbar_DNK_AUN.show, #snackbar_DNK_ANN.show, #snackbar_DNK_AWN.show, #snackbar_DNK_AAW.show, #snackbar_DNK_AUW.show, #snackbar_DNK_ANW.show, #snackbar_DNK_AWW.show, #snackbar_DNK_UAA.show, #snackbar_DNK_UUA.show, #snackbar_DNK_UNA.show, #snackbar_DNK_UWA.show, #snackbar_DNK_UAU.show, #snackbar_DNK_UUU.show, #snackbar_DNK_UNU.show, #snackbar_DNK_UWU.show, #snackbar_DNK_UAN.show, #snackbar_DNK_UUN.show, #snackbar_DNK_UNN.show, #snackbar_DNK_UWN.show, #snackbar_DNK_UAW.show, #snackbar_DNK_UUW.show, #snackbar_DNK_UNW.show, #snackbar_DNK_UWW.show, #snackbar_DNK_NAA.show, #snackbar_DNK_NUA.show, #snackbar_DNK_NNA.show, #snackbar_DNK_NWA.show, #snackbar_DNK_NAU.show, #snackbar_DNK_NUU.show, #snackbar_DNK_NNU.show, #snackbar_DNK_NWU.show, #snackbar_DNK_NAN.show, #snackbar_DNK_NUN.show, #snackbar_DNK_NNN.show, #snackbar_DNK_NWN.show, #snackbar_DNK_NAW.show, #snackbar_DNK_NUW.show, #snackbar_DNK_NNW.show, #snackbar_DNK_NWW.show, #snackbar_DNK_WAA.show, #snackbar_DNK_WUA.show, #snackbar_DNK_WNA.show, #snackbar_DNK_WWA.show, #snackbar_DNK_WAU.show, #snackbar_DNK_WUU.show, #snackbar_DNK_WNU.show, #snackbar_DNK_WWU.show, #snackbar_DNK_WAN.show, #snackbar_DNK_WUN.show, #snackbar_DNK_WNN.show, #snackbar_DNK_WWN.show, #snackbar_DNK_WAW.show, #snackbar_DNK_WUW.show, #snackbar_DNK_WNW.show, #snackbar_DNK_WWW.show,
+
+#snackbar_RNK_EEE.show, #snackbar_RNK_EWE.show, #snackbar_RNK_EAE.show, #snackbar_RNK_EUE.show, #snackbar_RNK_EEW.show, #snackbar_RNK_EWW.show, #snackbar_RNK_EAW.show, #snackbar_RNK_EUW.show, #snackbar_RNK_EEA.show, #snackbar_RNK_EWA.show, #snackbar_RNK_EAA.show, #snackbar_RNK_EUA.show,#snackbar_RNK_EEU.show, #snackbar_RNK_EWU.show, #snackbar_RNK_EAU.show, #snackbar_RNK_EUU.show, #snackbar_RNK_WEE.show, #snackbar_RNK_WWE.show, #snackbar_RNK_WAE.show, #snackbar_RNK_WUE.show, #snackbar_RNK_WEW.show, #snackbar_RNK_WWW.show, #snackbar_RNK_WAW.show, #snackbar_RNK_WUW.show,#snackbar_RNK_WEA.show, #snackbar_RNK_WWA.show, #snackbar_RNK_WAA.show, #snackbar_RNK_WUA.show, #snackbar_RNK_WEU.show, #snackbar_RNK_WWU.show, #snackbar_RNK_WAU.show, #snackbar_RNK_WUU.show, #snackbar_RNK_AEE.show, #snackbar_RNK_AWE.show, #snackbar_RNK_AAE.show, #snackbar_RNK_AUE.show,#snackbar_RNK_AEW.show, #snackbar_RNK_AWW.show, #snackbar_RNK_AAW.show, #snackbar_RNK_AUW.show, #snackbar_RNK_AEA.show, #snackbar_RNK_AWA.show, #snackbar_RNK_AAA.show, #snackbar_RNK_AUA.show, #snackbar_RNK_AEU.show, #snackbar_RNK_AWU.show, #snackbar_RNK_AAU.show, #snackbar_RNK_AUU.show,#snackbar_RNK_UEE.show, #snackbar_RNK_UWE.show, #snackbar_RNK_UAE.show, #snackbar_RNK_UUE.show, #snackbar_RNK_UEW.show, #snackbar_RNK_UWW.show, #snackbar_RNK_UAW.show, #snackbar_RNK_UUW.show, #snackbar_RNK_UEA.show, #snackbar_RNK_UWA.show, #snackbar_RNK_UAA.show, #snackbar_RNK_UUA.show,#snackbar_RNK_UEU.show, #snackbar_RNK_UWU.show, #snackbar_RNK_UAU.show, #snackbar_RNK_UUU.show{
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
