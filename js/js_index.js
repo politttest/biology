@@ -473,3 +473,1055 @@ function enter(){
         }
     }
 }
+
+function input_DNK_AAA(){
+    var x = document.getElementById("snackbar_DNK_AAA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_AUA(){
+    var x = document.getElementById("snackbar_DNK_AUA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_ANA(){
+    var x = document.getElementById("snackbar_DNK_ANA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_AWA(){
+    var x = document.getElementById("snackbar_DNK_AWA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_AAU(){
+    var x = document.getElementById("snackbar_DNK_AAU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_AUU(){
+    var x = document.getElementById("snackbar_DNK_AUU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_ANU(){
+    var x = document.getElementById("snackbar_DNK_ANU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_AWU(){
+    var x = document.getElementById("snackbar_DNK_AWU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_AAN(){
+    var x = document.getElementById("snackbar_DNK_AAN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_AUN(){
+    var x = document.getElementById("snackbar_DNK_AUN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_ANN(){
+    var x = document.getElementById("snackbar_DNK_ANN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_AWN(){
+    var x = document.getElementById("snackbar_DNK_AWN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_AAW(){
+    var x = document.getElementById("snackbar_DNK_AAW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_AUW(){
+    var x = document.getElementById("snackbar_DNK_AUW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_ANW(){
+    var x = document.getElementById("snackbar_DNK_ANW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_AWW(){
+    var x = document.getElementById("snackbar_DNK_AWW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+
+
+
+
+
+
+function input_DNK_UAA(){
+    var x = document.getElementById("snackbar_DNK_UAA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UUA(){
+    var x = document.getElementById("snackbar_DNK_UUA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UNA(){
+    var x = document.getElementById("snackbar_DNK_UNA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UWA(){
+    var x = document.getElementById("snackbar_DNK_UWA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_UAU(){
+    var x = document.getElementById("snackbar_DNK_UAU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UUU(){
+    var x = document.getElementById("snackbar_DNK_UUU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UNU(){
+    var x = document.getElementById("snackbar_DNK_UNU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UWU(){
+    var x = document.getElementById("snackbar_DNK_UWU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_UAN(){
+    var x = document.getElementById("snackbar_DNK_UAN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UUN(){
+    var x = document.getElementById("snackbar_DNK_UUN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UNN(){
+    var x = document.getElementById("snackbar_DNK_UNN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UWN(){
+    var x = document.getElementById("snackbar_DNK_UWN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_UAW(){
+    var x = document.getElementById("snackbar_DNK_UAW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UUW(){
+    var x = document.getElementById("snackbar_DNK_UUW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UNW(){
+    var x = document.getElementById("snackbar_DNK_UNW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_UWW(){
+    var x = document.getElementById("snackbar_DNK_UWW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+
+
+
+
+
+
+function input_DNK_NAA(){
+    var x = document.getElementById("snackbar_DNK_NAA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NUA(){
+    var x = document.getElementById("snackbar_DNK_NUA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NNA(){
+    var x = document.getElementById("snackbar_DNK_NNA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NWA(){
+    var x = document.getElementById("snackbar_DNK_NWA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_NAU(){
+    var x = document.getElementById("snackbar_DNK_NAU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NUU(){
+    var x = document.getElementById("snackbar_DNK_NUU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NNU(){
+    var x = document.getElementById("snackbar_DNK_NNU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NWU(){
+    var x = document.getElementById("snackbar_DNK_NWU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_NAN(){
+    var x = document.getElementById("snackbar_DNK_NAN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NUN(){
+    var x = document.getElementById("snackbar_DNK_NUN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NNN(){
+    var x = document.getElementById("snackbar_DNK_NNN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NWN(){
+    var x = document.getElementById("snackbar_DNK_NWN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_NAW(){
+    var x = document.getElementById("snackbar_DNK_NAW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NUW(){
+    var x = document.getElementById("snackbar_DNK_NUW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NNW(){
+    var x = document.getElementById("snackbar_DNK_NNW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_NWW(){
+    var x = document.getElementById("snackbar_DNK_NWW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+
+
+
+
+
+
+function input_DNK_WAA(){
+    var x = document.getElementById("snackbar_DNK_WAA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WUA(){
+    var x = document.getElementById("snackbar_DNK_WUA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WNA(){
+    var x = document.getElementById("snackbar_DNK_WNA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WWA(){
+    var x = document.getElementById("snackbar_DNK_WWA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_WAU(){
+    var x = document.getElementById("snackbar_DNK_UAU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WUU(){
+    var x = document.getElementById("snackbar_DNK_WUU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WNU(){
+    var x = document.getElementById("snackbar_DNK_WNU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WWU(){
+    var x = document.getElementById("snackbar_DNK_WWU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_WAN(){
+    var x = document.getElementById("snackbar_DNK_WAN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WUN(){
+    var x = document.getElementById("snackbar_DNK_WUN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WNN(){
+    var x = document.getElementById("snackbar_DNK_WNN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WWN(){
+    var x = document.getElementById("snackbar_DNK_WWN");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+function input_DNK_WAW(){
+    var x = document.getElementById("snackbar_DNK_WAW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WUW(){
+    var x = document.getElementById("snackbar_DNK_WUW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WNW(){
+    var x = document.getElementById("snackbar_DNK_WNW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_DNK_WWW(){
+    var x = document.getElementById("snackbar_DNK_WWW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function input_RNK_EEE(){
+    var x = document.getElementById("snackbar_RNK_EEE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EWE(){
+    var x = document.getElementById("snackbar_RNK_EWE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EAE(){
+    var x = document.getElementById("snackbar_RNK_EAE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EUE(){
+    var x = document.getElementById("snackbar_RNK_EUE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_EEW(){
+    var x = document.getElementById("snackbar_RNK_EEW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EWW(){
+    var x = document.getElementById("snackbar_RNK_EWW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EAW(){
+    var x = document.getElementById("snackbar_RNK_EAW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EUW(){
+    var x = document.getElementById("snackbar_RNK_EUW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_EEA(){
+    var x = document.getElementById("snackbar_RNK_EEA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EWA(){
+    var x = document.getElementById("snackbar_RNK_EWA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EAA(){
+    var x = document.getElementById("snackbar_RNK_EAA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EUA(){
+    var x = document.getElementById("snackbar_RNK_EUA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_EEU(){
+    var x = document.getElementById("snackbar_RNK_EEU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EWU(){
+    var x = document.getElementById("snackbar_RNK_EWU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EAU(){
+    var x = document.getElementById("snackbar_RNK_EAU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_EUU(){
+    var x = document.getElementById("snackbar_RNK_EUU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+function input_RNK_WEE(){
+    var x = document.getElementById("snackbar_RNK_WEE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WWE(){
+    var x = document.getElementById("snackbar_RNK_WWE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WAE(){
+    var x = document.getElementById("snackbar_RNK_WAE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WUE(){
+    var x = document.getElementById("snackbar_RNK_WUE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_WEW(){
+    var x = document.getElementById("snackbar_RNK_WEW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WWW(){
+    var x = document.getElementById("snackbar_RNK_WWW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WAW(){
+    var x = document.getElementById("snackbar_RNK_WAW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WUW(){
+    var x = document.getElementById("snackbar_RNK_WUW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_WEA(){
+    var x = document.getElementById("snackbar_RNK_WEA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WWA(){
+    var x = document.getElementById("snackbar_RNK_WWA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WAA(){
+    var x = document.getElementById("snackbar_RNK_WAA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WUA(){
+    var x = document.getElementById("snackbar_RNK_WUA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_WEU(){
+    var x = document.getElementById("snackbar_RNK_WEU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WWU(){
+    var x = document.getElementById("snackbar_RNK_WWU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WAU(){
+    var x = document.getElementById("snackbar_RNK_WAU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_WUU(){
+    var x = document.getElementById("snackbar_RNK_WUU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+function input_RNK_AEE(){
+    var x = document.getElementById("snackbar_RNK_AEE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AWE(){
+    var x = document.getElementById("snackbar_RNK_AWE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AAE(){
+    var x = document.getElementById("snackbar_RNK_AAE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AUE(){
+    var x = document.getElementById("snackbar_RNK_AUE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_AEW(){
+    var x = document.getElementById("snackbar_RNK_AEW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AWW(){
+    var x = document.getElementById("snackbar_RNK_AWW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AAW(){
+    var x = document.getElementById("snackbar_RNK_AAW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AUW(){
+    var x = document.getElementById("snackbar_RNK_AUW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_AEA(){
+    var x = document.getElementById("snackbar_RNK_AEA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AWA(){
+    var x = document.getElementById("snackbar_RNK_AWA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AAA(){
+    var x = document.getElementById("snackbar_RNK_AAA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AUA(){
+    var x = document.getElementById("snackbar_RNK_AUA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_AEU(){
+    var x = document.getElementById("snackbar_RNK_AEU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AWU(){
+    var x = document.getElementById("snackbar_RNK_AWU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AAU(){
+    var x = document.getElementById("snackbar_RNK_AAU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_AUU(){
+    var x = document.getElementById("snackbar_RNK_AUU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+
+
+
+
+
+
+
+
+function input_RNK_UEE(){
+    var x = document.getElementById("snackbar_RNK_UEE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UWE(){
+    var x = document.getElementById("snackbar_RNK_UWE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UAE(){
+    var x = document.getElementById("snackbar_RNK_UAE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UUE(){
+    var x = document.getElementById("snackbar_RNK_UUE");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_UEW(){
+    var x = document.getElementById("snackbar_RNK_UEW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UWW(){
+    var x = document.getElementById("snackbar_RNK_UWW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UAW(){
+    var x = document.getElementById("snackbar_RNK_UAW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UUW(){
+    var x = document.getElementById("snackbar_RNK_UUW");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_UEA(){
+    var x = document.getElementById("snackbar_RNK_UEA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UWA(){
+    var x = document.getElementById("snackbar_RNK_UWA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UAA(){
+    var x = document.getElementById("snackbar_RNK_UAA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UUA(){
+    var x = document.getElementById("snackbar_RNK_UUA");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+
+
+
+function input_RNK_UEU(){
+    var x = document.getElementById("snackbar_RNK_UEU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UWU(){
+    var x = document.getElementById("snackbar_RNK_UWU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UAU(){
+    var x = document.getElementById("snackbar_RNK_UAU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
+function input_RNK_UUU(){
+    var x = document.getElementById("snackbar_RNK_UUU");
+    x.className = "show";
+    setTimeout(() => {
+        x.className = x.className.replace("show", "");
+    }, 3000);
+}
