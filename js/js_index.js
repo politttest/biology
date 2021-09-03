@@ -1,501 +1,503 @@
-function enter(){
+
+
+function enter() {
     var input = document.getElementById("one_input").value
     var final = document.getElementById("final")
     var RNK = document.getElementById("RNK").checked;
     var DNK = document.getElementById("DNK").checked;
     console.log("До выбора")
-    if(input != ""){
+    if (input != "") {
         final.innerHTML = ""
-        if(DNK){
+        if (DNK) {
             console.log("Успешный ввод ДНК")
-            switch(input){
+            switch (input) {
                 /*Первый блок*/
-                case "ААА": 
+                case "ААА":
                     final.innerHTML += "Фен";
                     break;
-                case "АГА": 
+                case "АГА":
                     final.innerHTML += "Сер";
                     break;
-                case "АТА": 
-                    final.innerHTML += "Тир"; 
+                case "АТА":
+                    final.innerHTML += "Тир";
                     break;
-                case "АЦА": 
-                    final.innerHTML += "Цис"; 
+                case "АЦА":
+                    final.innerHTML += "Цис";
                     break;
-                case "ААГ": 
-                    final.innerHTML += "Фен"; 
+                case "ААГ":
+                    final.innerHTML += "Фен";
                     break;
-                case "АГГ": 
-                    final.innerHTML += "Сер"; 
+                case "АГГ":
+                    final.innerHTML += "Сер";
                     break;
-                case "АТГ": 
-                    final.innerHTML += "Тир"; 
+                case "АТГ":
+                    final.innerHTML += "Тир";
                     break;
-                case "АЦГ": 
-                    final.innerHTML += "Цис"; 
+                case "АЦГ":
+                    final.innerHTML += "Цис";
                     break;
-                case "ААТ": 
-                    final.innerHTML += "Лей"; 
+                case "ААТ":
+                    final.innerHTML += "Лей";
                     break;
-                case "АГТ": 
-                    final.innerHTML += "Сер"; 
+                case "АГТ":
+                    final.innerHTML += "Сер";
                     break;
-                case "АТТ": 
-                    final.innerHTML += "Стоп"; 
+                case "АТТ":
+                    final.innerHTML += "Стоп";
                     break;
-                case "АЦТ": 
-                    final.innerHTML += "Стоп"; 
+                case "АЦТ":
+                    final.innerHTML += "Стоп";
                     break;
-                case "ААЦ": 
-                    final.innerHTML += "Лей"; 
+                case "ААЦ":
+                    final.innerHTML += "Лей";
                     break;
-                case "АГЦ": 
-                    final.innerHTML += "Сер"; 
+                case "АГЦ":
+                    final.innerHTML += "Сер";
                     break;
-                case "АТЦ": 
-                    final.innerHTML += "Стоп"; 
+                case "АТЦ":
+                    final.innerHTML += "Стоп";
                     break;
-                case "АЦЦ": 
-                    final.innerHTML += "Три"; 
+                case "АЦЦ":
+                    final.innerHTML += "Три";
                     break;
                 /*Второй блок*/
-                case "ГАА": 
+                case "ГАА":
                     final.innerHTML += "Лей";
                     break;
-                case "ГГА": 
+                case "ГГА":
                     final.innerHTML += "Про";
                     break;
-                case "ГТА": 
-                    final.innerHTML += "Гіс"; 
+                case "ГТА":
+                    final.innerHTML += "Гіс";
                     break;
-                case "ГЦА": 
-                    final.innerHTML += "Арг"; 
+                case "ГЦА":
+                    final.innerHTML += "Арг";
                     break;
-                case "ГАГ": 
+                case "ГАГ":
                     final.innerHTML += "Лей";
                     break;
-                case "ГГГ": 
+                case "ГГГ":
                     final.innerHTML += "Про";
                     break;
-                case "ГТГ": 
-                    final.innerHTML += "Гіс"; 
+                case "ГТГ":
+                    final.innerHTML += "Гіс";
                     break;
-                case "ГЦГ": 
-                    final.innerHTML += "Арг"; 
+                case "ГЦГ":
+                    final.innerHTML += "Арг";
                     break;
-                case "ГАТ": 
+                case "ГАТ":
                     final.innerHTML += "Лей";
                     break;
-                case "ГГТ": 
+                case "ГГТ":
                     final.innerHTML += "Про";
                     break;
-                case "ГТТ": 
-                    final.innerHTML += "Глн"; 
+                case "ГТТ":
+                    final.innerHTML += "Глн";
                     break;
-                case "ГЦТ": 
-                    final.innerHTML += "Арг"; 
+                case "ГЦТ":
+                    final.innerHTML += "Арг";
                     break;
-                case "ГАЦ": 
+                case "ГАЦ":
                     final.innerHTML += "Лей";
                     break;
-                case "ГГЦ": 
+                case "ГГЦ":
                     final.innerHTML += "Про";
                     break;
-                case "ГТЦ": 
-                    final.innerHTML += "Глн"; 
+                case "ГТЦ":
+                    final.innerHTML += "Глн";
                     break;
-                case "ГЦЦ": 
-                    final.innerHTML += "Арг"; 
+                case "ГЦЦ":
+                    final.innerHTML += "Арг";
                     break;
                 /*Третий блок*/
-                case "ТАА": 
+                case "ТАА":
                     final.innerHTML += "Іле";
                     break;
-                case "ТГА": 
+                case "ТГА":
                     final.innerHTML += "Тре";
                     break;
-                case "ТТА": 
-                    final.innerHTML += "Асн"; 
+                case "ТТА":
+                    final.innerHTML += "Асн";
                     break;
-                case "ТТА": 
-                    final.innerHTML += "Сер"; 
+                case "ТТА":
+                    final.innerHTML += "Сер";
                     break;
-                case "ТАГ": 
+                case "ТАГ":
                     final.innerHTML += "Іле";
                     break;
-                case "ТГГ": 
+                case "ТГГ":
                     final.innerHTML += "Тре";
                     break;
-                case "ТТГ": 
-                    final.innerHTML += "Асн"; 
+                case "ТТГ":
+                    final.innerHTML += "Асн";
                     break;
-                case "ТЦГ": 
-                    final.innerHTML += "Сер"; 
+                case "ТЦГ":
+                    final.innerHTML += "Сер";
                     break;
-                case "ТАТ": 
+                case "ТАТ":
                     final.innerHTML += "Іле";
                     break;
-                case "ТГТ": 
+                case "ТГТ":
                     final.innerHTML += "Тре";
                     break;
-                case "ТТТ": 
-                    final.innerHTML += "Ліз"; 
+                case "ТТТ":
+                    final.innerHTML += "Ліз";
                     break;
-                case "ТЦТ": 
-                    final.innerHTML += "Арг"; 
+                case "ТЦТ":
+                    final.innerHTML += "Арг";
                     break;
-                case "ТАЦ": 
+                case "ТАЦ":
                     final.innerHTML += "Мет";
                     break;
-                case "ТГЦ": 
+                case "ТГЦ":
                     final.innerHTML += "Тре";
                     break;
-                case "ТТЦ": 
-                    final.innerHTML += "Ліз"; 
+                case "ТТЦ":
+                    final.innerHTML += "Ліз";
                     break;
-                case "ТЦЦ": 
-                    final.innerHTML += "Арг"; 
+                case "ТЦЦ":
+                    final.innerHTML += "Арг";
                     break;
                 /*Четвертый блок*/
-                case "ЦАА": 
+                case "ЦАА":
                     final.innerHTML += "Вал";
                     break;
-                case "ЦГА": 
+                case "ЦГА":
                     final.innerHTML += "Ала";
                     break;
-                case "ЦТА": 
-                    final.innerHTML += "Асп"; 
+                case "ЦТА":
+                    final.innerHTML += "Асп";
                     break;
-                case "ЦЦА": 
-                    final.innerHTML += "Глі"; 
+                case "ЦЦА":
+                    final.innerHTML += "Глі";
                     break;
-                case "ЦАГ": 
+                case "ЦАГ":
                     final.innerHTML += "Вал";
                     break;
-                case "ЦГГ": 
+                case "ЦГГ":
                     final.innerHTML += "Ала";
                     break;
-                case "ЦТГ": 
-                    final.innerHTML += "Асп"; 
+                case "ЦТГ":
+                    final.innerHTML += "Асп";
                     break;
-                case "ЦЦГ": 
-                    final.innerHTML += "Глі"; 
+                case "ЦЦГ":
+                    final.innerHTML += "Глі";
                     break;
-                case "ЦАТ": 
+                case "ЦАТ":
                     final.innerHTML += "Вал";
                     break;
-                case "ЦГТ": 
+                case "ЦГТ":
                     final.innerHTML += "Ала";
                     break;
-                case "ЦТТ": 
-                    final.innerHTML += "Глу"; 
+                case "ЦТТ":
+                    final.innerHTML += "Глу";
                     break;
-                case "ЦЦТ": 
-                    final.innerHTML += "Глі"; 
+                case "ЦЦТ":
+                    final.innerHTML += "Глі";
                     break;
-                case "ЦАЦ": 
+                case "ЦАЦ":
                     final.innerHTML += "Вал";
                     break;
-                case "ЦГЦ": 
+                case "ЦГЦ":
                     final.innerHTML += "Ала";
                     break;
-                case "ЦТЦ": 
-                    final.innerHTML += "Глу"; 
+                case "ЦТЦ":
+                    final.innerHTML += "Глу";
                     break;
-                case "ЦЦЦ": 
-                    final.innerHTML += "Глі"; 
+                case "ЦЦЦ":
+                    final.innerHTML += "Глі";
                     break;
                 default:
                     alert("Такої комбінації не існує, можливо, вам треба обрати 'РНК', замість 'ДНК'.")
             }
         }
-        else if(RNK){
+        else if (RNK) {
             console.log("Успешный ввод РНК")
-            switch(input){
+            switch (input) {
                 /*Первый блок*/
-                case "УУУ": 
+                case "УУУ":
                     final.innerHTML += "Фен";
                     break;
-                case "УЦУ": 
+                case "УЦУ":
                     final.innerHTML += "Сер";
                     break;
-                case "УАУ": 
-                    final.innerHTML += "Тир"; 
+                case "УАУ":
+                    final.innerHTML += "Тир";
                     break;
-                case "УГУ": 
-                    final.innerHTML += "Цис"; 
+                case "УГУ":
+                    final.innerHTML += "Цис";
                     break;
-                case "УУЦ": 
-                    final.innerHTML += "Фен"; 
+                case "УУЦ":
+                    final.innerHTML += "Фен";
                     break;
-                case "УЦЦ": 
-                    final.innerHTML += "Сер"; 
+                case "УЦЦ":
+                    final.innerHTML += "Сер";
                     break;
-                case "УАЦ": 
-                    final.innerHTML += "Тир"; 
+                case "УАЦ":
+                    final.innerHTML += "Тир";
                     break;
-                case "УГЦ": 
-                    final.innerHTML += "Цис"; 
+                case "УГЦ":
+                    final.innerHTML += "Цис";
                     break;
-                case "УУА": 
-                    final.innerHTML += "Лей"; 
+                case "УУА":
+                    final.innerHTML += "Лей";
                     break;
-                case "УЦА": 
-                    final.innerHTML += "Сер"; 
+                case "УЦА":
+                    final.innerHTML += "Сер";
                     break;
-                case "УАА": 
-                    final.innerHTML += "Стоп"; 
+                case "УАА":
+                    final.innerHTML += "Стоп";
                     break;
-                case "УГА": 
-                    final.innerHTML += "Стоп"; 
+                case "УГА":
+                    final.innerHTML += "Стоп";
                     break;
-                case "УУГ": 
-                    final.innerHTML += "Лей"; 
+                case "УУГ":
+                    final.innerHTML += "Лей";
                     break;
-                case "УЦГ": 
-                    final.innerHTML += "Сер"; 
+                case "УЦГ":
+                    final.innerHTML += "Сер";
                     break;
-                case "УАГ": 
-                    final.innerHTML += "Стоп"; 
+                case "УАГ":
+                    final.innerHTML += "Стоп";
                     break;
-                case "УГГ": 
-                    final.innerHTML += "Три"; 
+                case "УГГ":
+                    final.innerHTML += "Три";
                     break;
                 /*Второй блок*/
-                case "ЦУУ": 
+                case "ЦУУ":
                     final.innerHTML += "Лей";
                     break;
-                case "ЦЦУ": 
+                case "ЦЦУ":
                     final.innerHTML += "Про";
                     break;
-                case "ЦАУ": 
-                    final.innerHTML += "Гіс"; 
+                case "ЦАУ":
+                    final.innerHTML += "Гіс";
                     break;
-                case "ЦГУ": 
-                    final.innerHTML += "Арг"; 
+                case "ЦГУ":
+                    final.innerHTML += "Арг";
                     break;
-                case "ЦУЦ": 
+                case "ЦУЦ":
                     final.innerHTML += "Лей";
                     break;
-                case "ЦЦЦ": 
+                case "ЦЦЦ":
                     final.innerHTML += "Про";
                     break;
-                case "ЦАЦ": 
-                    final.innerHTML += "Гіс"; 
+                case "ЦАЦ":
+                    final.innerHTML += "Гіс";
                     break;
-                case "ЦГЦ": 
-                    final.innerHTML += "Арг"; 
+                case "ЦГЦ":
+                    final.innerHTML += "Арг";
                     break;
-                case "ЦУА": 
+                case "ЦУА":
                     final.innerHTML += "Лей";
                     break;
-                case "ЦЦА": 
+                case "ЦЦА":
                     final.innerHTML += "Про";
                     break;
-                case "ЦАА": 
-                    final.innerHTML += "Глн"; 
+                case "ЦАА":
+                    final.innerHTML += "Глн";
                     break;
-                case "ЦГА": 
-                    final.innerHTML += "Арг"; 
+                case "ЦГА":
+                    final.innerHTML += "Арг";
                     break;
-                case "ЦУГ": 
+                case "ЦУГ":
                     final.innerHTML += "Лей";
                     break;
-                case "ЦЦГ": 
+                case "ЦЦГ":
                     final.innerHTML += "Про";
                     break;
-                case "ЦАГ": 
-                    final.innerHTML += "Глн"; 
+                case "ЦАГ":
+                    final.innerHTML += "Глн";
                     break;
-                case "ЦГГ": 
-                    final.innerHTML += "Арг"; 
+                case "ЦГГ":
+                    final.innerHTML += "Арг";
                     break;
-                    /*Второй блок*/
-                case "ЦУУ": 
+                /*Второй блок*/
+                case "ЦУУ":
                     final.innerHTML += "Лей";
                     break;
-                case "ЦЦУ": 
+                case "ЦЦУ":
                     final.innerHTML += "Про";
                     break;
-                case "ЦАУ": 
-                    final.innerHTML += "Гіс"; 
+                case "ЦАУ":
+                    final.innerHTML += "Гіс";
                     break;
-                case "ЦГУ": 
-                    final.innerHTML += "Арг"; 
+                case "ЦГУ":
+                    final.innerHTML += "Арг";
                     break;
-                case "ЦУЦ": 
+                case "ЦУЦ":
                     final.innerHTML += "Лей";
                     break;
-                case "ЦЦЦ": 
+                case "ЦЦЦ":
                     final.innerHTML += "Про";
                     break;
-                case "ЦАЦ": 
-                    final.innerHTML += "Гіс"; 
+                case "ЦАЦ":
+                    final.innerHTML += "Гіс";
                     break;
-                case "ЦГЦ": 
-                    final.innerHTML += "Арг"; 
+                case "ЦГЦ":
+                    final.innerHTML += "Арг";
                     break;
-                case "ЦУА": 
+                case "ЦУА":
                     final.innerHTML += "Лей";
                     break;
-                case "ЦЦА": 
+                case "ЦЦА":
                     final.innerHTML += "Про";
                     break;
-                case "ЦАА": 
-                    final.innerHTML += "Глн"; 
+                case "ЦАА":
+                    final.innerHTML += "Глн";
                     break;
-                case "ЦГА": 
-                    final.innerHTML += "Арг"; 
+                case "ЦГА":
+                    final.innerHTML += "Арг";
                     break;
-                case "ЦУГ": 
+                case "ЦУГ":
                     final.innerHTML += "Лей";
                     break;
-                case "ЦЦГ": 
+                case "ЦЦГ":
                     final.innerHTML += "Про";
                     break;
-                case "ЦАГ": 
-                    final.innerHTML += "Глн"; 
+                case "ЦАГ":
+                    final.innerHTML += "Глн";
                     break;
-                case "ЦГГ": 
-                    final.innerHTML += "Арг"; 
+                case "ЦГГ":
+                    final.innerHTML += "Арг";
                     break;
                 /*Третий блок*/
-                case "АУУ": 
+                case "АУУ":
                     final.innerHTML += "Іле";
                     break;
-                case "АЦУ": 
+                case "АЦУ":
                     final.innerHTML += "Тре";
                     break;
-                case "ААУ": 
-                    final.innerHTML += "Асн"; 
+                case "ААУ":
+                    final.innerHTML += "Асн";
                     break;
-                case "АГУ": 
-                    final.innerHTML += "Сер"; 
+                case "АГУ":
+                    final.innerHTML += "Сер";
                     break;
-                case "АУЦ": 
+                case "АУЦ":
                     final.innerHTML += "Іле";
                     break;
-                case "АЦЦ": 
+                case "АЦЦ":
                     final.innerHTML += "Тре";
                     break;
-                case "ААЦ": 
-                    final.innerHTML += "Асн"; 
+                case "ААЦ":
+                    final.innerHTML += "Асн";
                     break;
-                case "АГЦ": 
-                    final.innerHTML += "Сер"; 
+                case "АГЦ":
+                    final.innerHTML += "Сер";
                     break;
-                case "АУА": 
+                case "АУА":
                     final.innerHTML += "Іле";
                     break;
-                case "АЦА": 
+                case "АЦА":
                     final.innerHTML += "Тре";
                     break;
-                case "ААА": 
-                    final.innerHTML += "Ліз"; 
+                case "ААА":
+                    final.innerHTML += "Ліз";
                     break;
-                case "АГА": 
-                    final.innerHTML += "Арг"; 
+                case "АГА":
+                    final.innerHTML += "Арг";
                     break;
-                case "АУГ": 
+                case "АУГ":
                     final.innerHTML += "Мет";
                     break;
-                case "АЦГ": 
+                case "АЦГ":
                     final.innerHTML += "Тре";
                     break;
-                case "ААГ": 
-                    final.innerHTML += "Ліз"; 
+                case "ААГ":
+                    final.innerHTML += "Ліз";
                     break;
-                case "АГГ": 
-                    final.innerHTML += "Арг"; 
+                case "АГГ":
+                    final.innerHTML += "Арг";
                     break;
                 /*Четвертый блок*/
-                case "ГУУ": 
+                case "ГУУ":
                     final.innerHTML += "Вал";
                     break;
-                case "ГЦУ": 
+                case "ГЦУ":
                     final.innerHTML += "Ала";
                     break;
-                case "ГАУ": 
-                    final.innerHTML += "Асп"; 
+                case "ГАУ":
+                    final.innerHTML += "Асп";
                     break;
-                case "ГГУ": 
-                    final.innerHTML += "Глі"; 
+                case "ГГУ":
+                    final.innerHTML += "Глі";
                     break;
-                case "ГУЦ": 
+                case "ГУЦ":
                     final.innerHTML += "Вал";
                     break;
-                case "ГЦЦ": 
+                case "ГЦЦ":
                     final.innerHTML += "Ала";
                     break;
-                case "ГАЦ": 
-                    final.innerHTML += "Асп"; 
+                case "ГАЦ":
+                    final.innerHTML += "Асп";
                     break;
-                case "ГГЦ": 
-                    final.innerHTML += "Глі"; 
+                case "ГГЦ":
+                    final.innerHTML += "Глі";
                     break;
-                case "ГУА": 
+                case "ГУА":
                     final.innerHTML += "Вал";
                     break;
-                case "ГЦА": 
+                case "ГЦА":
                     final.innerHTML += "Ала";
                     break;
-                case "ГАА": 
-                    final.innerHTML += "Глу"; 
+                case "ГАА":
+                    final.innerHTML += "Глу";
                     break;
-                case "ГГА": 
-                    final.innerHTML += "Глі"; 
+                case "ГГА":
+                    final.innerHTML += "Глі";
                     break;
-                case "ГУГ": 
+                case "ГУГ":
                     final.innerHTML += "Вал";
                     break;
-                case "ГЦГ": 
+                case "ГЦГ":
                     final.innerHTML += "Ала";
                     break;
-                case "ГАГ": 
-                    final.innerHTML += "Глу"; 
+                case "ГАГ":
+                    final.innerHTML += "Глу";
                     break;
-                case "ГГГ": 
-                    final.innerHTML += "Глі"; 
+                case "ГГГ":
+                    final.innerHTML += "Глі";
                     break;
                 default:
                     alert("Такої комбінації не існує, можливо, вам треба обрати 'ДНК', замість 'РНК'.")
             }
         }
-        else{
+        else {
             alert("Оберіть таблицю. 'РНК' чи 'ДНК'")
         }
-        
+
     }
-    else{
+    else {
         console.log("После выбора2")
-        if(input == ""){
+        if (input == "") {
             alert("Уведіть")
         }
     }
 }
 
-function input_DNK_AAA(){
+function input_DNK_AAA() {
     var x = document.getElementById("snackbar_DNK_AAA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_AUA(){
+function input_DNK_AUA() {
     var x = document.getElementById("snackbar_DNK_AUA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_ANA(){
+function input_DNK_ANA() {
     var x = document.getElementById("snackbar_DNK_ANA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_AWA(){
+function input_DNK_AWA() {
     var x = document.getElementById("snackbar_DNK_AWA");
     x.className = "show";
     setTimeout(() => {
@@ -504,28 +506,28 @@ function input_DNK_AWA(){
 }
 
 
-function input_DNK_AAU(){
+function input_DNK_AAU() {
     var x = document.getElementById("snackbar_DNK_AAU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_AUU(){
+function input_DNK_AUU() {
     var x = document.getElementById("snackbar_DNK_AUU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_ANU(){
+function input_DNK_ANU() {
     var x = document.getElementById("snackbar_DNK_ANU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_AWU(){
+function input_DNK_AWU() {
     var x = document.getElementById("snackbar_DNK_AWU");
     x.className = "show";
     setTimeout(() => {
@@ -534,28 +536,28 @@ function input_DNK_AWU(){
 }
 
 
-function input_DNK_AAN(){
+function input_DNK_AAN() {
     var x = document.getElementById("snackbar_DNK_AAN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_AUN(){
+function input_DNK_AUN() {
     var x = document.getElementById("snackbar_DNK_AUN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_ANN(){
+function input_DNK_ANN() {
     var x = document.getElementById("snackbar_DNK_ANN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_AWN(){
+function input_DNK_AWN() {
     var x = document.getElementById("snackbar_DNK_AWN");
     x.className = "show";
     setTimeout(() => {
@@ -564,28 +566,28 @@ function input_DNK_AWN(){
 }
 
 
-function input_DNK_AAW(){
+function input_DNK_AAW() {
     var x = document.getElementById("snackbar_DNK_AAW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_AUW(){
+function input_DNK_AUW() {
     var x = document.getElementById("snackbar_DNK_AUW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_ANW(){
+function input_DNK_ANW() {
     var x = document.getElementById("snackbar_DNK_ANW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_AWW(){
+function input_DNK_AWW() {
     var x = document.getElementById("snackbar_DNK_AWW");
     x.className = "show";
     setTimeout(() => {
@@ -601,28 +603,28 @@ function input_DNK_AWW(){
 
 
 
-function input_DNK_UAA(){
+function input_DNK_UAA() {
     var x = document.getElementById("snackbar_DNK_UAA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UUA(){
+function input_DNK_UUA() {
     var x = document.getElementById("snackbar_DNK_UUA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UNA(){
+function input_DNK_UNA() {
     var x = document.getElementById("snackbar_DNK_UNA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UWA(){
+function input_DNK_UWA() {
     var x = document.getElementById("snackbar_DNK_UWA");
     x.className = "show";
     setTimeout(() => {
@@ -631,28 +633,28 @@ function input_DNK_UWA(){
 }
 
 
-function input_DNK_UAU(){
+function input_DNK_UAU() {
     var x = document.getElementById("snackbar_DNK_UAU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UUU(){
+function input_DNK_UUU() {
     var x = document.getElementById("snackbar_DNK_UUU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UNU(){
+function input_DNK_UNU() {
     var x = document.getElementById("snackbar_DNK_UNU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UWU(){
+function input_DNK_UWU() {
     var x = document.getElementById("snackbar_DNK_UWU");
     x.className = "show";
     setTimeout(() => {
@@ -661,28 +663,28 @@ function input_DNK_UWU(){
 }
 
 
-function input_DNK_UAN(){
+function input_DNK_UAN() {
     var x = document.getElementById("snackbar_DNK_UAN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UUN(){
+function input_DNK_UUN() {
     var x = document.getElementById("snackbar_DNK_UUN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UNN(){
+function input_DNK_UNN() {
     var x = document.getElementById("snackbar_DNK_UNN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UWN(){
+function input_DNK_UWN() {
     var x = document.getElementById("snackbar_DNK_UWN");
     x.className = "show";
     setTimeout(() => {
@@ -691,28 +693,28 @@ function input_DNK_UWN(){
 }
 
 
-function input_DNK_UAW(){
+function input_DNK_UAW() {
     var x = document.getElementById("snackbar_DNK_UAW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UUW(){
+function input_DNK_UUW() {
     var x = document.getElementById("snackbar_DNK_UUW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UNW(){
+function input_DNK_UNW() {
     var x = document.getElementById("snackbar_DNK_UNW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_UWW(){
+function input_DNK_UWW() {
     var x = document.getElementById("snackbar_DNK_UWW");
     x.className = "show";
     setTimeout(() => {
@@ -728,28 +730,28 @@ function input_DNK_UWW(){
 
 
 
-function input_DNK_NAA(){
+function input_DNK_NAA() {
     var x = document.getElementById("snackbar_DNK_NAA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NUA(){
+function input_DNK_NUA() {
     var x = document.getElementById("snackbar_DNK_NUA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NNA(){
+function input_DNK_NNA() {
     var x = document.getElementById("snackbar_DNK_NNA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NWA(){
+function input_DNK_NWA() {
     var x = document.getElementById("snackbar_DNK_NWA");
     x.className = "show";
     setTimeout(() => {
@@ -758,28 +760,28 @@ function input_DNK_NWA(){
 }
 
 
-function input_DNK_NAU(){
+function input_DNK_NAU() {
     var x = document.getElementById("snackbar_DNK_NAU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NUU(){
+function input_DNK_NUU() {
     var x = document.getElementById("snackbar_DNK_NUU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NNU(){
+function input_DNK_NNU() {
     var x = document.getElementById("snackbar_DNK_NNU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NWU(){
+function input_DNK_NWU() {
     var x = document.getElementById("snackbar_DNK_NWU");
     x.className = "show";
     setTimeout(() => {
@@ -788,28 +790,28 @@ function input_DNK_NWU(){
 }
 
 
-function input_DNK_NAN(){
+function input_DNK_NAN() {
     var x = document.getElementById("snackbar_DNK_NAN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NUN(){
+function input_DNK_NUN() {
     var x = document.getElementById("snackbar_DNK_NUN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NNN(){
+function input_DNK_NNN() {
     var x = document.getElementById("snackbar_DNK_NNN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NWN(){
+function input_DNK_NWN() {
     var x = document.getElementById("snackbar_DNK_NWN");
     x.className = "show";
     setTimeout(() => {
@@ -818,28 +820,28 @@ function input_DNK_NWN(){
 }
 
 
-function input_DNK_NAW(){
+function input_DNK_NAW() {
     var x = document.getElementById("snackbar_DNK_NAW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NUW(){
+function input_DNK_NUW() {
     var x = document.getElementById("snackbar_DNK_NUW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NNW(){
+function input_DNK_NNW() {
     var x = document.getElementById("snackbar_DNK_NNW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_NWW(){
+function input_DNK_NWW() {
     var x = document.getElementById("snackbar_DNK_NWW");
     x.className = "show";
     setTimeout(() => {
@@ -855,28 +857,28 @@ function input_DNK_NWW(){
 
 
 
-function input_DNK_WAA(){
+function input_DNK_WAA() {
     var x = document.getElementById("snackbar_DNK_WAA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WUA(){
+function input_DNK_WUA() {
     var x = document.getElementById("snackbar_DNK_WUA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WNA(){
+function input_DNK_WNA() {
     var x = document.getElementById("snackbar_DNK_WNA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WWA(){
+function input_DNK_WWA() {
     var x = document.getElementById("snackbar_DNK_WWA");
     x.className = "show";
     setTimeout(() => {
@@ -885,28 +887,28 @@ function input_DNK_WWA(){
 }
 
 
-function input_DNK_WAU(){
+function input_DNK_WAU() {
     var x = document.getElementById("snackbar_DNK_UAU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WUU(){
+function input_DNK_WUU() {
     var x = document.getElementById("snackbar_DNK_WUU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WNU(){
+function input_DNK_WNU() {
     var x = document.getElementById("snackbar_DNK_WNU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WWU(){
+function input_DNK_WWU() {
     var x = document.getElementById("snackbar_DNK_WWU");
     x.className = "show";
     setTimeout(() => {
@@ -915,28 +917,28 @@ function input_DNK_WWU(){
 }
 
 
-function input_DNK_WAN(){
+function input_DNK_WAN() {
     var x = document.getElementById("snackbar_DNK_WAN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WUN(){
+function input_DNK_WUN() {
     var x = document.getElementById("snackbar_DNK_WUN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WNN(){
+function input_DNK_WNN() {
     var x = document.getElementById("snackbar_DNK_WNN");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WWN(){
+function input_DNK_WWN() {
     var x = document.getElementById("snackbar_DNK_WWN");
     x.className = "show";
     setTimeout(() => {
@@ -945,28 +947,28 @@ function input_DNK_WWN(){
 }
 
 
-function input_DNK_WAW(){
+function input_DNK_WAW() {
     var x = document.getElementById("snackbar_DNK_WAW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WUW(){
+function input_DNK_WUW() {
     var x = document.getElementById("snackbar_DNK_WUW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WNW(){
+function input_DNK_WNW() {
     var x = document.getElementById("snackbar_DNK_WNW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_DNK_WWW(){
+function input_DNK_WWW() {
     var x = document.getElementById("snackbar_DNK_WWW");
     x.className = "show";
     setTimeout(() => {
@@ -1005,28 +1007,28 @@ function input_DNK_WWW(){
 
 
 
-function input_RNK_EEE(){
+function input_RNK_EEE() {
     var x = document.getElementById("snackbar_RNK_EEE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EWE(){
+function input_RNK_EWE() {
     var x = document.getElementById("snackbar_RNK_EWE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EAE(){
+function input_RNK_EAE() {
     var x = document.getElementById("snackbar_RNK_EAE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EUE(){
+function input_RNK_EUE() {
     var x = document.getElementById("snackbar_RNK_EUE");
     x.className = "show";
     setTimeout(() => {
@@ -1036,28 +1038,28 @@ function input_RNK_EUE(){
 
 
 
-function input_RNK_EEW(){
+function input_RNK_EEW() {
     var x = document.getElementById("snackbar_RNK_EEW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EWW(){
+function input_RNK_EWW() {
     var x = document.getElementById("snackbar_RNK_EWW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EAW(){
+function input_RNK_EAW() {
     var x = document.getElementById("snackbar_RNK_EAW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EUW(){
+function input_RNK_EUW() {
     var x = document.getElementById("snackbar_RNK_EUW");
     x.className = "show";
     setTimeout(() => {
@@ -1067,28 +1069,28 @@ function input_RNK_EUW(){
 
 
 
-function input_RNK_EEA(){
+function input_RNK_EEA() {
     var x = document.getElementById("snackbar_RNK_EEA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EWA(){
+function input_RNK_EWA() {
     var x = document.getElementById("snackbar_RNK_EWA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EAA(){
+function input_RNK_EAA() {
     var x = document.getElementById("snackbar_RNK_EAA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EUA(){
+function input_RNK_EUA() {
     var x = document.getElementById("snackbar_RNK_EUA");
     x.className = "show";
     setTimeout(() => {
@@ -1098,28 +1100,28 @@ function input_RNK_EUA(){
 
 
 
-function input_RNK_EEU(){
+function input_RNK_EEU() {
     var x = document.getElementById("snackbar_RNK_EEU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EWU(){
+function input_RNK_EWU() {
     var x = document.getElementById("snackbar_RNK_EWU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EAU(){
+function input_RNK_EAU() {
     var x = document.getElementById("snackbar_RNK_EAU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_EUU(){
+function input_RNK_EUU() {
     var x = document.getElementById("snackbar_RNK_EUU");
     x.className = "show";
     setTimeout(() => {
@@ -1139,28 +1141,28 @@ function input_RNK_EUU(){
 
 
 
-function input_RNK_WEE(){
+function input_RNK_WEE() {
     var x = document.getElementById("snackbar_RNK_WEE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WWE(){
+function input_RNK_WWE() {
     var x = document.getElementById("snackbar_RNK_WWE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WAE(){
+function input_RNK_WAE() {
     var x = document.getElementById("snackbar_RNK_WAE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WUE(){
+function input_RNK_WUE() {
     var x = document.getElementById("snackbar_RNK_WUE");
     x.className = "show";
     setTimeout(() => {
@@ -1170,28 +1172,28 @@ function input_RNK_WUE(){
 
 
 
-function input_RNK_WEW(){
+function input_RNK_WEW() {
     var x = document.getElementById("snackbar_RNK_WEW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WWW(){
+function input_RNK_WWW() {
     var x = document.getElementById("snackbar_RNK_WWW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WAW(){
+function input_RNK_WAW() {
     var x = document.getElementById("snackbar_RNK_WAW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WUW(){
+function input_RNK_WUW() {
     var x = document.getElementById("snackbar_RNK_WUW");
     x.className = "show";
     setTimeout(() => {
@@ -1201,28 +1203,28 @@ function input_RNK_WUW(){
 
 
 
-function input_RNK_WEA(){
+function input_RNK_WEA() {
     var x = document.getElementById("snackbar_RNK_WEA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WWA(){
+function input_RNK_WWA() {
     var x = document.getElementById("snackbar_RNK_WWA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WAA(){
+function input_RNK_WAA() {
     var x = document.getElementById("snackbar_RNK_WAA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WUA(){
+function input_RNK_WUA() {
     var x = document.getElementById("snackbar_RNK_WUA");
     x.className = "show";
     setTimeout(() => {
@@ -1232,28 +1234,28 @@ function input_RNK_WUA(){
 
 
 
-function input_RNK_WEU(){
+function input_RNK_WEU() {
     var x = document.getElementById("snackbar_RNK_WEU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WWU(){
+function input_RNK_WWU() {
     var x = document.getElementById("snackbar_RNK_WWU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WAU(){
+function input_RNK_WAU() {
     var x = document.getElementById("snackbar_RNK_WAU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_WUU(){
+function input_RNK_WUU() {
     var x = document.getElementById("snackbar_RNK_WUU");
     x.className = "show";
     setTimeout(() => {
@@ -1272,28 +1274,28 @@ function input_RNK_WUU(){
 
 
 
-function input_RNK_AEE(){
+function input_RNK_AEE() {
     var x = document.getElementById("snackbar_RNK_AEE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AWE(){
+function input_RNK_AWE() {
     var x = document.getElementById("snackbar_RNK_AWE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AAE(){
+function input_RNK_AAE() {
     var x = document.getElementById("snackbar_RNK_AAE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AUE(){
+function input_RNK_AUE() {
     var x = document.getElementById("snackbar_RNK_AUE");
     x.className = "show";
     setTimeout(() => {
@@ -1303,28 +1305,28 @@ function input_RNK_AUE(){
 
 
 
-function input_RNK_AEW(){
+function input_RNK_AEW() {
     var x = document.getElementById("snackbar_RNK_AEW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AWW(){
+function input_RNK_AWW() {
     var x = document.getElementById("snackbar_RNK_AWW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AAW(){
+function input_RNK_AAW() {
     var x = document.getElementById("snackbar_RNK_AAW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AUW(){
+function input_RNK_AUW() {
     var x = document.getElementById("snackbar_RNK_AUW");
     x.className = "show";
     setTimeout(() => {
@@ -1334,28 +1336,28 @@ function input_RNK_AUW(){
 
 
 
-function input_RNK_AEA(){
+function input_RNK_AEA() {
     var x = document.getElementById("snackbar_RNK_AEA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AWA(){
+function input_RNK_AWA() {
     var x = document.getElementById("snackbar_RNK_AWA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AAA(){
+function input_RNK_AAA() {
     var x = document.getElementById("snackbar_RNK_AAA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AUA(){
+function input_RNK_AUA() {
     var x = document.getElementById("snackbar_RNK_AUA");
     x.className = "show";
     setTimeout(() => {
@@ -1365,28 +1367,28 @@ function input_RNK_AUA(){
 
 
 
-function input_RNK_AEU(){
+function input_RNK_AEU() {
     var x = document.getElementById("snackbar_RNK_AEU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AWU(){
+function input_RNK_AWU() {
     var x = document.getElementById("snackbar_RNK_AWU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AAU(){
+function input_RNK_AAU() {
     var x = document.getElementById("snackbar_RNK_AAU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_AUU(){
+function input_RNK_AUU() {
     var x = document.getElementById("snackbar_RNK_AUU");
     x.className = "show";
     setTimeout(() => {
@@ -1404,28 +1406,28 @@ function input_RNK_AUU(){
 
 
 
-function input_RNK_UEE(){
+function input_RNK_UEE() {
     var x = document.getElementById("snackbar_RNK_UEE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UWE(){
+function input_RNK_UWE() {
     var x = document.getElementById("snackbar_RNK_UWE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UAE(){
+function input_RNK_UAE() {
     var x = document.getElementById("snackbar_RNK_UAE");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UUE(){
+function input_RNK_UUE() {
     var x = document.getElementById("snackbar_RNK_UUE");
     x.className = "show";
     setTimeout(() => {
@@ -1435,28 +1437,28 @@ function input_RNK_UUE(){
 
 
 
-function input_RNK_UEW(){
+function input_RNK_UEW() {
     var x = document.getElementById("snackbar_RNK_UEW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UWW(){
+function input_RNK_UWW() {
     var x = document.getElementById("snackbar_RNK_UWW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UAW(){
+function input_RNK_UAW() {
     var x = document.getElementById("snackbar_RNK_UAW");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UUW(){
+function input_RNK_UUW() {
     var x = document.getElementById("snackbar_RNK_UUW");
     x.className = "show";
     setTimeout(() => {
@@ -1466,28 +1468,28 @@ function input_RNK_UUW(){
 
 
 
-function input_RNK_UEA(){
+function input_RNK_UEA() {
     var x = document.getElementById("snackbar_RNK_UEA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UWA(){
+function input_RNK_UWA() {
     var x = document.getElementById("snackbar_RNK_UWA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UAA(){
+function input_RNK_UAA() {
     var x = document.getElementById("snackbar_RNK_UAA");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UUA(){
+function input_RNK_UUA() {
     var x = document.getElementById("snackbar_RNK_UUA");
     x.className = "show";
     setTimeout(() => {
@@ -1497,31 +1499,180 @@ function input_RNK_UUA(){
 
 
 
-function input_RNK_UEU(){
+function input_RNK_UEU() {
     var x = document.getElementById("snackbar_RNK_UEU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UWU(){
+function input_RNK_UWU() {
     var x = document.getElementById("snackbar_RNK_UWU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UAU(){
+function input_RNK_UAU() {
     var x = document.getElementById("snackbar_RNK_UAU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
 }
-function input_RNK_UUU(){
+function input_RNK_UUU() {
     var x = document.getElementById("snackbar_RNK_UUU");
     x.className = "show";
     setTimeout(() => {
         x.className = x.className.replace("show", "");
     }, 3000);
+}
+
+RNA = false;
+
+function changeRNAorDNA() {
+    if (RNA == true) {
+        document.getElementById('NA1').innerText = "ДНК";
+        document.getElementById('NA2').innerText = "ДНК";
+    } else {
+        document.getElementById('NA1').innerText = "РНК";
+        document.getElementById('NA2').innerText = "РНК";
+    }
+    RNA = !RNA;
+}
+
+
+function task1() {
+    first = document.getElementById('task1_nucleotides').value;
+    answ1 = document.getElementById("task1_answerNucleotides");
+    answ1.innerHTML = " ";
+    answ2 = document.getElementById("task1_answerLength");
+    nucA = document.getElementById("task1_nucleotideA");
+    nucT = document.getElementById("task1_nucleotideT");
+    nucG = document.getElementById("task1_nucleotideG");
+    nucC = document.getElementById("task1_nucleotideC");
+    nucU = document.getElementById("task1_nucleotideU");
+    nucleotideA = 0;
+    nucleotideT = 0;
+    nucleotideG = 0;
+    nucleotideC = 0;
+    nucleotideU = 0;
+    nucleotideLong = 0;
+    for (var i = 0; i < first.length; i++) {
+        console.log(">>>>>>>>")
+        e = first[i];
+        answ1.innerHTML += replace(e);
+    }
+    answ2.innerHTML = nucleotideLong * 0.34 + " нм"
+    time = Math.round(parseFloat(100 / (nucleotideA + nucleotideG + nucleotideC + nucleotideT + nucleotideU)) * 100) / 100;
+    nucA.innerHTML = nucleotideA * time;
+    nucT.innerHTML = nucleotideT * time;
+    nucC.innerHTML = nucleotideC * time;
+    nucG.innerHTML = nucleotideG * time;
+    nucU.innerHTML = nucleotideU * time;
+    function replace(e) {
+        console.log("INPUT to function " + e);
+        if (RNA) {
+            if (e == "А" || e == "а") {
+                nucleotideU += 1;
+                nucleotideA += 1;
+                nucleotideLong += 1;
+                return "У"
+            } else if (e == "У" || e == "у") {
+                nucleotideA += 1;
+                nucleotideU += 1;
+                nucleotideLong += 1;
+                return "А";
+            } else if (e == "Г" || e == "г") {
+                nucleotideC += 1;
+                nucleotideG += 1;
+                nucleotideLong += 1;
+                return "Ц";
+            } else if (e == "Ц" || e == "ц") {
+                nucleotideG += 1;
+                nucleotideC += 1;
+                nucleotideLong += 1;
+                return "Г";
+            } else {
+                return "-";
+            }
+        } else {
+            if (e == "А" || e == "а") {
+                nucleotideT += 1;
+                nucleotideA += 1;
+                nucleotideLong += 1;
+                return "Т";
+            } else if (e == "Т" || e == "т") {
+                nucleotideA += 1;
+                nucleotideT += 1;
+                nucleotideLong += 1;
+                return "А";
+            } else if (e == "Г" || e == "г") {
+                nucleotideC += 1;
+                nucleotideG += 1;
+                nucleotideLong += 1;
+                return "Ц";
+            } else if (e == "Ц" || e == "ц") {
+                nucleotideG += 1;
+                nucleotideC += 1;
+                nucleotideLong += 1;
+                return "Г";
+            } else {
+                return "-";
+            }
+        }
+    }
+}
+
+function task2() {
+    time = document.getElementById("task2_weightMolecule").value;
+    nucleotides = time / 100 * 3
+    document.getElementById("task2_answerLength").innerHTML = Math.round(parseFloat(nucleotides * 0.34) * 100) / 100 + " нм"
+    document.getElementById("task2_answerWeight").innerHTML = Math.round(parseFloat(nucleotides * 2 * 345) * 100) / 100;
+}
+
+function task3() {
+    nucleotides = document.getElementById("task3_numberNucleotides").value;
+    triplets = document.getElementById("task3_numberTriplets").value;
+    document.getElementById("task3_answerNumber").innerHTML = Math.round(parseFloat((nucleotides - (triplets * 3)) / 3) * 100) / 100
+}
+
+function task4() {
+    weight = document.getElementById("task4_weightMoleculars").value;
+    document.getElementById("task4_answerNumber").innerHTML = Math.round(parseFloat(weight / 345 / 3) * 100) / 100
+}
+
+function task5() {
+    nucleotides = document.getElementById("task5_numberNucleotides").value;
+    intronnes = document.getElementById("task5_lenghIntronnes").value;
+    document.getElementById("task5_answerNumber").innerHTML = Math.round(parseFloat((nucleotides - intronnes) / 3) * 100) / 100
+}
+
+function task6() {
+    nucleotides = document.getElementById("task6_numberNucleotides").value;
+    nucA = document.getElementById("task6_nucleotideA");
+    nucT = document.getElementById("task6_nucleotideT");
+    nucG = document.getElementById("task6_nucleotideG");
+    nucC = document.getElementById("task6_nucleotideC");
+    sel = document.getElementById("task6_select");
+    val = sel.options[sel.selectedIndex].value;
+    console.log(val)
+    if (val == "аденінові" || val == "тимі(дил)нові") {
+        console.log(">>>>>>>>>>>1111111")
+        nucA.innerHTML = nucleotides;
+        nucT.innerHTML = nucleotides;
+        nucG.innerHTML = 50 - nucleotides;
+        nucC.innerHTML = 50 - nucleotides;
+    } else {
+        console.log(">>>>>>>>>>>2222222")
+        nucA.innerHTML = 50 - nucleotides;
+        nucT.innerHTML = 50 - nucleotides;
+        nucG.innerHTML = nucleotides;
+        nucC.innerHTML = nucleotides;
+    }
+}
+
+function task7() {
+    weight = document.getElementById("task7_numberNucleotides").value;
+    document.getElementById("task7_answerNumber").innerHTML = Math.round(parseFloat(weight / 100 * 3 * 2 * 345) * 100) / 100
 }
