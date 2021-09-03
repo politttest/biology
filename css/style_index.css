@@ -73,3 +73,12 @@ nav{
     visibility: visible;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
+
+.molecule {
+    color: rgb(0, 0, 75);
+    font-weight: 500;
+    text-decoration: none;
+}
+.molecule:hover{
+    color: rgb(0, 0, 75);
+}
